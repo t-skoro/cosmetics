@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmetics</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <nav class="nav">
+            <a href="#"><img src="img/hamburger.svg" alt="hamburger" /></a>
+            <span class="nav__list">Каталог</span>
+          </nav>
+          <a href="#"><img src="img/logo.svg" alt="Logo" /></a>
+          <address class="phone-header">
+            <a href="tel:+79221811818" class="phone">+7 (922) 181 18 18</a>
+          </address>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__row">
+          <div class="hero__text">
+            <!-- <h1 class="hero__title">
+              Лучшие косметические средства для вашей идеальной красоты
+            </h1> -->
+            <h1 class="hero__title">Лучшие косметические средства</h1>
+            <div class="hero__subtitle">
+              <p>
+                В нашем интернет-магазине представлено более 1000 наименований
+                косметической продукции для всех типов кожи.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero__img">
+            <img src="img/img-hero.png" alt="Cosmetics" />
+            <button class="button hero__button">Смотреть <br />каталог</button>
+            <div class="hero__benefits">
+              <span>Органические сертифицированные продукты</span>
+              <img src="img/line.svg" alt="Line" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main">
+      <section class="goods">
+        <div class="container">
+          <div class="goods__row">
+            <div class="goods-catalog">
+              <!-- <h2 class="title goods__title">
+                Выберите свой косметический продукт
+              </h2> -->
+              <h2 class="title goods__title">Выберите свою косметику</h2>
+              <p>
+                Больше косметических средств представлено внутри каталога,
+                посмотрите!
+              </p>
+              <ul class="goods-catalog__list">
+                <li class="goods-catalog__item">
+                  <a href="#" class="goods-catalog__link"
+                    >Сияющий тональный флюид</a
+                  >
+                </li>
+                <li class="goods-catalog__item">
+                  <a href="#" class="goods-catalog__link">Тушь для ресниц</a>
+                </li>
+                <li class="goods-catalog__item">
+                  <a href="#" class="goods-catalog__link"
+                    >Помада для губ увлажняющая</a
+                  >
+                </li>
+                <li class="goods-catalog__item">
+                  <a href="#" class="goods-catalog__link"
+                    >Солнцезащитный крем</a
+                  >
+                </li>
+                <li class="goods-catalog__item">
+                  <a href="#" class="goods-catalog__link">Суфле-баттер</a>
+                </li>
+              </ul>
+              <button class="button goods-catalog__button">В каталог</button>
+            </div>
+
+            <ul class="goods-cards__list">
+              <li class="goods-cards__item">
+                <img
+                  src="img/img-1.jpg"
+                  alt="Продукт"
+                  class="goods-cards__image"
+                />
+                <div class="goods-cards__desc">
+                  <p>Лак для ногтей «Wonderland», голографический эффект</p>
+                  <div class="price">1 500 руб.</div>
+                  <button class="button-light">Подробнее</button>
+                </div>
+              </li>
+              <li class="goods-cards__item">
+                <img
+                  src="img/img-2.jpg"
+                  alt="Продукт"
+                  class="goods-cards__image"
+                />
+                <div class="goods-cards__desc">
+                  <p>Помада «Кинофестивальная»</p>
+                  <div class="price">1 800 руб.</div>
+                  <button class="button-light">Подробнее</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="order">
+        <div class="container">
+          <div class="order__row">
+            <div class="order__image">
+              <img src="./img/master-photo.jpg" alt="Master-photo" />
+            </div>
+
+            <div class="order__description">
+              <div class="title order__title">Отвечаем на&nbsp;вопросы</div>
+              <div class="order__text">
+                <p>
+                  Если у Вас остались вопросы, мы с&nbsp;удовольствием на них
+                  ответим, а&nbsp;также мы можем помочь Вам с&nbsp;выбором
+                  товара.
+                </p>
+              </div>
+            </div>
+
+            <form action="#" class="form">
+              <div class="form__inputs">
+                <input
+                  type="text"
+                  class="form__input-item"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  type="text"
+                  class="form__input-item"
+                  placeholder="Ваш телефон"
+                />
+                <button class="button__form">Заказать звонок</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__right">
+              <p>ИП Вороновский И.С. Все&nbsp;права защищены, 2024</p>
+            </div>
+            <a href="#" class="footer__logo"
+              ><img src="img/logo.svg" alt="Logo"
+            /></a>
+            <address>
+              <p>Мы на связи с Вами!</p>
+              <a href="tel:+79221811818" class="phone phone--bold"
+                >+7 (922) 181 18 18</a
+              >
+            </address>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
